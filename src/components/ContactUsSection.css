@@ -1,6 +1,9 @@
 .contactus-section {
   background: #fff8f3;
   padding: 4rem 1rem 3rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contactus-title {
@@ -31,7 +34,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
+  justify-content: stretch;
   min-height: 520px;
 }
 
@@ -40,7 +43,9 @@
 }
 
 .contactus-location-block {
+  align-items: center;
   justify-content: space-between;
+  min-height: 520px;
 }
 
 .contactus-subtitle {
@@ -116,12 +121,6 @@
   color: #7b2c5a;
 }
 
-.contactus-location-block {
-  align-items: center;
-  justify-content: space-between;
-  height: 100%;
-}
-
 .contactus-map-container {
   width: 100%;
   max-width: 360px;
@@ -171,10 +170,19 @@
   .contactus-form-block, .contactus-location-block {
     min-width: 0;
     width: 100%;
-    height: auto;
-    min-height: 0;
+    min-height: unset;
   }
   .contactus-map-container {
     max-width: 100%;
+  }
+}
+
+/* Ensure both blocks fill the same height in row layout */
+@media (min-width: 901px) {
+  .contactus-form-block, .contactus-location-block {
+    min-height: 520px;
+  }
+  .contactus-content {
+    align-items: stretch;
   }
 }
