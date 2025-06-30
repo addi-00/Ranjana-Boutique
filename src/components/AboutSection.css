@@ -1,0 +1,26 @@
+.about-section {
+  background: #fff8f3;
+  padding: 4rem 1rem 3rem 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 0;
+  box-shadow: 0 8px 32px rgba(123,44,90,0.08);
+}
+
+.about-content {
+  max-width: 700px;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2rem;
+  color: #7b2c5a;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+}
+
+.about-description {
+  font-size: 1.15rem;
+  color: #3d3d3d;
+  line-height: 1.7;
+}

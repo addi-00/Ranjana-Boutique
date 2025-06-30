@@ -1,0 +1,50 @@
+.location-section {
+  background: #fff;
+  padding: 4rem 1rem 3rem 1rem;
+  text-align: center;
+}
+
+.location-title {
+  font-size: 2rem;
+  color: #7b2c5a;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 2rem;
+}
+
+.location-map-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 1.5rem auto;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(123,44,90,0.07);
+}
+
+.location-address {
+  color: #3d3d3d;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.get-location-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.85rem 2.2rem;
+  background: linear-gradient(90deg, #7b2c5a 0%, #b06ab3 100%);
+  color: #fff;
+  font-size: 1.08rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 8px rgba(123,44,90,0.08);
+  transition: background 0.2s, box-shadow 0.2s, color 0.2s;
+  letter-spacing: 0.5px;
+}
+
+.get-location-btn:hover {
+  background: linear-gradient(90deg, #ffe6fa 0%, #b06ab3 100%);
+  color: #7b2c5a;
+  box-shadow: 0 4px 16px rgba(123,44,90,0.13);
+  border-radius: 1.2rem;
+}

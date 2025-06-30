@@ -1,0 +1,44 @@
+.hero-section {
+  background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.5)), url('/hero-bg.png') center/cover no-repeat;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.hero-content {
+  text-align: center;
+  background: rgba(255,255,255,0.85);
+  padding: 2rem 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  color: #7b2c5a;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #3d3d3d;
+  margin-bottom: 2rem;
+}
+
+.hero-cta {
+  background: linear-gradient(90deg, #b06ab3 0%, #4568dc 100%);
+  color: #fff;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: background 0.3s;
+}
+
+.hero-cta:hover {
+  background: linear-gradient(90deg, #4568dc 0%, #b06ab3 100%);
+}

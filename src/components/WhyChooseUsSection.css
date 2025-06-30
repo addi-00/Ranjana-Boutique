@@ -1,0 +1,51 @@
+.whychoose-section {
+  background: #fff8f3;
+  padding: 4rem 1rem 3rem 1rem;
+  border-radius: 0;
+  box-shadow: 0 8px 32px rgba(176,106,179,0.08);
+}
+
+.whychoose-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #7b2c5a;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 2rem;
+}
+
+.whychoose-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.whychoose-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(123,44,90,0.07);
+  padding: 2rem 1.5rem;
+  max-width: 220px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.whychoose-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(123,44,90,0.13);
+}
+
+.whychoose-icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.whychoose-card h3 {
+  color: #b06ab3;
+  margin-bottom: 0.5rem;
+}
+
+.whychoose-card p {
+  color: #3d3d3d;
+  font-size: 1rem;
+}
